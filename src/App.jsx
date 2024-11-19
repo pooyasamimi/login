@@ -10,7 +10,6 @@ const App = () => {
     <div>
       <Toaster position="top-center" reverseOrder={false} />
       <Routes>
-        <Route path="/" element={<Navigate to={"/register"} />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<Page404 />} />
