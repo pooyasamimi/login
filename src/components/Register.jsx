@@ -278,7 +278,7 @@ const Register = () => {
                   </div>
                 </Form>
                 <div className="login100-pic js-tilt" data-tilt>
-                  <img src="./src/assets/images/img-01.png" alt="IMG" />
+                  <img src="/assets/images/img-01.png" alt="IMG" />
                 </div>
               </div>
             );
